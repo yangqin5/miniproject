@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;1,500&display=swap');
+
+* {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+body {
+  background-image: url("https://cdn.discordapp.com/attachments/1276499266608693249/1395069463082041374/IMG_0631.jpg?ex=68879baf&is=68864a2f&hm=3c5cb9042dd14dc05b2d892aaec3d1981902ffd1fa86968f6f8c632b40a136de&");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+
+}
+
+.parallax {
+  height: 80vh;
+}
+
+
+.content1 {
+  height: fit-content;
+  background: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 2%;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px;
+}
+
+.grid-item {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s;
+}
+
+.info {
+  padding: 15px;
+}
